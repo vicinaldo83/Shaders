@@ -1,0 +1,31 @@
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./public/css/style.css ***!
+  \************************************************************************/
+:root{
+    --bg: hsl(180, 84%, 34%);
+
+    --blue: #065BD0;
+    --light-blue: #508DE2;
+    --aqua-green: #44EFE7;
+    --ocean-greee: #0EA7A0;
+    --dark-yellow: #F8B606;
+    --yellow: #FAC537;
+    --coral-red: #ef444d;
+    --light-pink: #F69196;
+    --brown: #362800;
+    --dark-red: #200007;
+    --dark-blue: #001220;
+}
+
+canvas {
+    width: 100vh;
+    height: 100vh;
+
+    top: 0;
+    left: 0;
+}
+
+body{
+    background-color: var(--bg);
+}
+

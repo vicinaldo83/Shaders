@@ -1,0 +1,23 @@
+:root{
+    --blue: #065BD0;
+    --light-blue: #508DE2;
+    --aqua-green: #44EFE7;
+    --ocean-greee: #0EA7A0;
+    --dark-yellow: #F8B606;
+    --yellow: #FAC537;
+    --coral-red: #ef444d;
+    --light-pink: #F69196;
+    --brown: #362800;
+    --dark-red: #200007;
+    --dark-blue: #001220;
+}
+
+canvas {
+    position: absolute;
+    
+    width: 100vw;
+    height: 100vh;
+
+    top: 0;
+    left: 0;
+}
