@@ -7,9 +7,9 @@ Meu objetivo final é tentar criar uma engine completa pra WebGL, algo semelhant
 
 ## To Do list
 
-- [ ]Criar um render melhorado
-- [ ]Criar suporte mais simples para VBO e VAO
-- [ ]Adicionar supporte para adição de shaders em arquivos externos
+- [ ] Criar um render melhorado
+- [ ] Criar suporte mais simples para VBO e VAO
+- [ ] Adicionar supporte para adição de shaders em arquivos externos
 
 ## Planejado
 
