@@ -26,9 +26,7 @@ function StartWevGl() {
     // Bind it to ARRAY_BUFFER (think of it as ARRAY_BUFFER = positionBuffer)
     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
     var positions = [
-        0, 0,
-        0, 0.5,
-        0.7, 0,
+        0.5, 0.5,
     ];
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
     // Create a vertex array object (attribute state)
@@ -38,7 +36,7 @@ function StartWevGl() {
     // Turn on the attribute
     gl.enableVertexAttribArray(positionAttributeLocation);
     // Tell the attribute how to get data out of positionBuffer (ARRAY_BUFFER)
-    var size = 2; // 2 components per iteration
+    var size = 4; // 2 components per iteration
     var type = gl.FLOAT; // the data is 32bit floats
     var normalize = false; // don't normalize the data
     var stride = 0; // 0 = move forward size * sizeof(type) each iteration to get the next position
@@ -97,3 +95,5 @@ function CreateProgram(gl, vertex, fragment) {
     return null;
 }
 exports.CreateProgram = CreateProgram;
+
+

@@ -1,4 +1,4 @@
-import { fragmentSource, vertexSource } from "./graphics";
+import { vertexSource, fragmentSource } from "./graphics";
 
 export function StartWevGl(): boolean {
     let canvas: HTMLCanvasElement = document.getElementsByTagName("canvas")[0];

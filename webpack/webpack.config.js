@@ -31,7 +31,7 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    "css-loader",
+                    "css-loader"
                 ]
             },
             {
@@ -39,6 +39,17 @@ module.exports = {
                 exclude: /node_modules/,
                 use: [
                     "babel-loader"
+                ]
+            },
+            {
+                test: /\.(frag|vert|glsl)$/,
+                use: [
+                    {
+                        loader: "glsl-shader-loader",
+                        options: {
+                            root: "../public/shaders"
+                        }
+                    }
                 ]
             }
         ]
